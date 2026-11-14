@@ -2,11 +2,12 @@
 
 import { motion } from "framer-motion";
 import Image from "next/image";
+import { BLUR } from "@/lib/blur-data-urls";
 import Link from "next/link";
 import Icons from "./ui/icons";
 import { buttonVariants } from "./ui/button";
 
-const ABOUT_IMAGE = "/about.JPG";
+const ABOUT_IMAGE = "/about-governor.avif";
 
 const fadeUp = (delay = 0) => ({
   hidden: { opacity: 0, y: 28 },
@@ -40,6 +41,8 @@ export default function AboutGovernor() {
                 fill
                 className="object-cover object-top"
                 sizes="(max-width: 1024px) 90vw, 45vw"
+                placeholder="blur"
+                blurDataURL={BLUR[ABOUT_IMAGE]}
               />
             </div>
           </motion.div>

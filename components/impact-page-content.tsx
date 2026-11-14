@@ -3,6 +3,7 @@
 import { useState, useCallback } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import Image from "next/image";
+import { BLUR } from "@/lib/blur-data-urls";
 import Link from "next/link";
 import { buttonVariants } from "./ui/button";
 
@@ -20,22 +21,22 @@ const ACHIEVEMENTS = [
       {
         src: "/images/nurses-supported.avif",
         alt: "Donation to health facility by Governor",
+        blur: BLUR["/images/nurses-supported.avif"],
       },
       {
         src: "/images/nurses-supported-1.avif",
         alt: "Donation to health facility by Governor",
+        blur: BLUR["/images/nurses-supported-1.avif"],
       },
       {
         src: "/images/money-donation.avif",
         alt: "Youth employment facilitated by Governor",
+        blur: BLUR["/images/money-donation.avif"],
       },
       {
         src: "/images/donation.avif",
         alt: "Market woman supported by Governor",
-      },
-      {
-        src: "/images/cash-donation-1.avif",
-        alt: "Market woman supported by Governor",
+        blur: BLUR["/images/donation.avif"],
       },
     ],
   },
@@ -49,10 +50,12 @@ const ACHIEVEMENTS = [
       {
         src: "/images/t-shirts.avif",
         alt: "Campaign T-shirt donation",
+        blur: BLUR["/images/t-shirts.avif"],
       },
       {
         src: "/images/party-items.avif",
         alt: "Women's veils and wristbands donation",
+        blur: BLUR["/images/party-items.avif"],
       },
     ],
   },
@@ -66,10 +69,12 @@ const ACHIEVEMENTS = [
       {
         src: "/images/bawumia-saha-poster.avif",
         alt: "Radio programme flyer",
+        blur: BLUR["/images/bawumia-saha-poster.avif"],
       },
       {
-        src: "/images/about.jpg",
+        src: "/images/governor-at-majority-radio-cropped.avif",
         alt: "BAWUMIA SAHA radio broadcast",
+        blur: BLUR["/images/governor-at-majority-radio-cropped.avif"],
       },
     ],
   },
@@ -83,14 +88,17 @@ const ACHIEVEMENTS = [
       {
         src: "/images/mion-outreach.avif",
         alt: "Mion constituency outreach",
+        blur: BLUR["/images/mion-outreach.avif"],
       },
       {
         src: "/images/mion-support.avif",
         alt: "Donations to Mion constituency",
+        blur: BLUR["/images/mion-support.avif"],
       },
       {
         src: "/images/mion-youth-agenda-tour.avif",
         alt: "Governor speaking at the Youth agenda movement tour in Mion",
+        blur: BLUR["/images/mion-youth-agenda-tour.avif"],
       },
       // {
       //   src: "/images/tinywow_1b74d73c-879e-4f22-8464-36a66669c9e0_92543548.avif",
@@ -108,26 +116,32 @@ const ACHIEVEMENTS = [
       {
         src: "/images/fio-old-primary.avif",
         alt: "New 3-unit classroom block in Walewale",
+        blur: BLUR["/images/fio-old-primary.avif"],
       },
       {
         src: "/images/fio-renovated-primary.avif",
         alt: "Fio community classroom renovation",
+        blur: BLUR["/images/fio-renovated-primary.avif"],
       },
       {
         src: "/images/fio-classroom-block-commissioning-event.avif",
         alt: "Renovated classroom block at Fio community",
+        blur: BLUR["/images/fio-classroom-block-commissioning-event.avif"],
       },
       {
         src: "/images/fio-first-ever-jhs-classroom-block.avif",
         alt: "First ever JHS classroom block at Fio community",
+        blur: BLUR["/images/fio-first-ever-jhs-classroom-block.avif"],
       },
       {
         src: "/images/fio-renovated-classroom-block.avif",
         alt: "Governor at the renovated classroom block at Fio community 1",
+        blur: BLUR["/images/fio-renovated-classroom-block.avif"],
       },
       {
         src: "/images/fio-classroom-block.avif",
         alt: "Governor at the renovated classroom block at Fio community 2",
+        blur: BLUR["/images/fio-classroom-block.avif"],
       },
       // {
       //   src: "/images/walewale-community-development.avif",
@@ -145,14 +159,17 @@ const ACHIEVEMENTS = [
       {
         src: "/images/old-dam.avif",
         alt: "Borehole construction in Chereponi",
+        blur: BLUR["/images/old-dam.avif"],
       },
       {
         src: "/images/old-dam-1.avif",
         alt: "Namujoka old dam",
+        blur: BLUR["/images/old-dam-1.avif"],
       },
       {
         src: "/images/mechanised-borehole.avif",
         alt: "Namujoka community mechanised borehole",
+        blur: BLUR["/images/mechanised-borehole.avif"],
       },
     ],
   },
@@ -166,14 +183,17 @@ const ACHIEVEMENTS = [
       {
         src: "/images/gupanarigu-old-maternity-ward.avif",
         alt: "Old maternity ward exterior",
+        blur: BLUR["/images/gupanarigu-old-maternity-ward.avif"],
       },
       {
         src: "/images/gupanirigu-new-maternity-ward.avif",
         alt: "Renovated maternity ward exterior",
+        blur: BLUR["/images/gupanirigu-new-maternity-ward.avif"],
       },
       {
         src: "/images/gupanarigu-maternity-ward-donation.avif",
         alt: "Medical equipment donated to ward",
+        blur: BLUR["/images/gupanarigu-maternity-ward-donation.avif"],
       },
     ],
   },
@@ -187,6 +207,7 @@ const ACHIEVEMENTS = [
       {
         src: "/images/party-items.avif",
         alt: "NPP party card distribution event",
+        blur: BLUR["/images/party-items.avif"],
       },
       // {
       //   src: "/images/tinywow_0dc1806c-2e4f-4de1-ac46-25bd8f94ed6b_92543519.avif",
@@ -204,6 +225,7 @@ const ACHIEVEMENTS = [
       {
         src: "/images/support.avif",
         alt: "Governor advocating for constituents",
+        blur: BLUR["/images/support.avif"],
       },
       // {
       //   src: "/images/tinywow_1ad303e4-6abb-4176-beb3-6c3777245c5c_92543532.avif",
@@ -221,6 +243,7 @@ const ACHIEVEMENTS = [
       {
         src: "/images/peace-cup-launch.avif",
         alt: "Peace and Development Cup opening ceremony",
+        blur: BLUR["/images/peace-cup-launch.avif"],
       },
       // {
       //   src: "/images/zamigu-youth.avif",
@@ -229,6 +252,7 @@ const ACHIEVEMENTS = [
       {
         src: "/images/peace-cup.avif",
         alt: "Award ceremony at the Peace Cup",
+        blur: BLUR["/images/peace-cup.avif"],
       },
     ],
   },
@@ -239,7 +263,7 @@ function ImageCarousel({
   images,
   number,
 }: {
-  images: { src: string; alt: string }[];
+  images: { src: string; alt: string; blur?: string }[];
   number: string;
 }) {
   const [current, setCurrent] = useState(0);
@@ -282,6 +306,8 @@ function ImageCarousel({
             fill
             className="object-cover object-center"
             sizes="(max-width: 1024px) 100vw, 50vw"
+            placeholder="blur"
+            blurDataURL={images[current].blur}
           />
         </motion.div>
       </AnimatePresence>
@@ -293,7 +319,7 @@ function ImageCarousel({
           <button
             onClick={prev}
             aria-label="Previous photo"
-            className="absolute left-3 top-1/2 -translate-y-1/2 z-10 w-9 h-9 flex items-center justify-center rounded-full bg-black/40 text-white hover:bg-secondary transition-colors duration-150 backdrop-blur-sm"
+            className="absolute left-3 top-1/2 -translate-y-1/2 z-10 w-9 h-9 flex items-center justify-center rounded-full bg-black/40 text-white transition-colors duration-150 backdrop-blur-sm"
           >
             <svg
               width="16"
@@ -314,7 +340,7 @@ function ImageCarousel({
           <button
             onClick={next}
             aria-label="Next photo"
-            className="absolute right-3 top-1/2 -translate-y-1/2 z-10 w-9 h-9 flex items-center justify-center rounded-full bg-black/40 text-white hover:bg-secondary hover:text-primary transition-colors duration-150 backdrop-blur-sm"
+            className="absolute right-3 top-1/2 -translate-y-1/2 z-10 w-9 h-9 flex items-center justify-center rounded-full bg-black/40 text-white hover:bg-secondary transition-colors duration-150 backdrop-blur-sm"
           >
             <svg
               width="16"

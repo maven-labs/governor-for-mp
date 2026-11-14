@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import Image from "next/image";
+import { BLUR } from "@/lib/blur-data-urls";
 import Link from "next/link";
 import Icons from "./ui/icons";
 import { buttonVariants } from "./ui/button";
@@ -40,6 +41,8 @@ export default function WhyImRunning() {
                 fill
                 className="object-cover object-top"
                 sizes="(max-width: 1024px) 90vw, 45vw"
+                placeholder="blur"
+                blurDataURL={BLUR[WHY_IMAGE]}
               />
             </div>
           </motion.div>

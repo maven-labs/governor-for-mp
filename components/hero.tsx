@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import { Button, buttonVariants } from "./ui/button";
 import Image from "next/image";
+import { BLUR } from "@/lib/blur-data-urls";
 
 /*
  * ─────────────────────────────────────────────────────────
@@ -62,6 +63,8 @@ export default function Hero() {
         alt=""
         className="absolute inset-0 w-full h-full object-cover object-[center_20%] z-0"
         fill
+        placeholder="blur"
+        blurDataURL={BLUR["/hero-banner.jpg"]}
       />
 
       {/* ─────────────────────────────────────────────────────

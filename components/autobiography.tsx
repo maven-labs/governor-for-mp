@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import Image from "next/image";
+import { BLUR } from "@/lib/blur-data-urls";
 
 const fadeUp = (delay = 0) => ({
   hidden: { opacity: 0, y: 28 },
@@ -34,6 +35,8 @@ function Autobiography() {
                   alt="Abdul Rauf Sulemana — Governor — in a formal portrait"
                   width={1024}
                   height={768}
+                  placeholder="blur"
+                  blurDataURL={BLUR["/images/about-governor.avif"]}
                   className="aspect-4/3 object-cover rounded-xl"
                 />
               </div>
@@ -87,6 +90,8 @@ function Autobiography() {
                   alt="A younger Governor Sulemana during his student years"
                   width={1024}
                   height={768}
+                  placeholder="blur"
+                  blurDataURL={BLUR["/images/young-governor.avif"]}
                   className="aspect-4/3 object-top object-cover rounded-xl"
                 />
               </div>
@@ -100,6 +105,8 @@ function Autobiography() {
                   alt="Governor on the campaign trail engaging with Kumbungu constituents"
                   width={1024}
                   height={768}
+                  placeholder="blur"
+                  blurDataURL={BLUR["/images/campaign.avif"]}
                   className="aspect-4/3 object-cover rounded-xl"
                 />
               </div>
@@ -171,6 +178,8 @@ function Autobiography() {
                   alt="Governor speaking with traders at a local market in Kumbungu"
                   width={1024}
                   height={768}
+                  placeholder="blur"
+                  blurDataURL={BLUR["/images/market-campaign.avif"]}
                   className="aspect-4/3 object-cover rounded-xl"
                 />
               </div>
@@ -184,6 +193,8 @@ function Autobiography() {
                   alt="Governor with youth supporters at a community gathering in Zamigu"
                   width={1024}
                   height={768}
+                  placeholder="blur"
+                  blurDataURL={BLUR["/images/zamigu-youth.avif"]}
                   className="aspect-4/3 object-cover rounded-xl"
                 />
               </div>

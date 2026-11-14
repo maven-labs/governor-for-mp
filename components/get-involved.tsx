@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
+import { BLUR } from "@/lib/blur-data-urls";
 import { Button } from "./ui/button";
 import Link from "next/link";
 
@@ -264,6 +265,8 @@ export default function GetInvolved() {
             fill
             className="object-cover object-center"
             sizes="50vw"
+            placeholder="blur"
+            blurDataURL={BLUR[SECTION_IMAGE]}
           />
 
           {/* <div
