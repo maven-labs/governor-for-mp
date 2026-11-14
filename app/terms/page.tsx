@@ -27,7 +27,6 @@ export default function TermsPage() {
         </p>
 
         <div className="prose prose-lg max-w-none space-y-12 text-foreground">
-
           {/* ── PRIVACY POLICY ── */}
           <section aria-labelledby="privacy-heading">
             <h2
@@ -44,16 +43,21 @@ export default function TermsPage() {
               When you sign up to support the Governor Sulemana for MP campaign,
               we collect your first name, last name, email address, and phone
               number (optional). We use this information solely to keep you
-              informed about the campaign — including updates, event invitations,
-              volunteer opportunities, and donation asks.
+              informed about the campaign — including updates, event
+              invitations, volunteer opportunities, and donation asks.
             </p>
 
             <h3 className="font-heading font-bold text-primary text-lg mt-6 mb-2">
               How We Use Your Information
             </h3>
             <ul className="list-disc pl-6 space-y-2 text-foreground/80 leading-relaxed">
-              <li>To send campaign updates, news, and event invitations by email or SMS.</li>
-              <li>To ask for your support through donations or volunteering.</li>
+              <li>
+                To send campaign updates, news, and event invitations by email
+                or SMS.
+              </li>
+              <li>
+                To ask for your support through donations or volunteering.
+              </li>
               <li>To send voting reminders and election day information.</li>
               <li>To improve our outreach and understand our supporters.</li>
             </ul>
@@ -75,9 +79,9 @@ export default function TermsPage() {
               Your Rights
             </h3>
             <p className="leading-relaxed text-foreground/80">
-              You may unsubscribe from our email list at any time by clicking the
-              unsubscribe link in any email we send. To request deletion of your
-              data, contact us at the address below.
+              You may unsubscribe from our email list at any time by clicking
+              the unsubscribe link in any email we send. To request deletion of
+              your data, contact us at the address below.
             </p>
           </section>
 
@@ -93,16 +97,17 @@ export default function TermsPage() {
             <p className="leading-relaxed text-foreground/80">
               By providing your phone number and submitting the sign-up form on
               this website, you consent to receive recurring automated text
-              messages from the Governor Sulemana for MP Campaign. These messages
-              may include campaign updates, event invitations, donation asks, and
-              voting reminders.
+              messages from the Governor Sulemana for MP Campaign. These
+              messages may include campaign updates, event invitations, donation
+              asks, and voting reminders.
             </p>
 
             <ul className="mt-4 list-disc pl-6 space-y-2 text-foreground/80 leading-relaxed">
               <li>Message frequency: up to 2 messages per day.</li>
               <li>Message and data rates may apply.</li>
               <li>
-                Text <strong>STOP</strong> at any time to stop receiving messages.
+                Text <strong>STOP</strong> at any time to stop receiving
+                messages.
               </li>
               <li>
                 Text <strong>HELP</strong> for more information or assistance.
@@ -135,8 +140,8 @@ export default function TermsPage() {
                 campaign purposes only.
               </li>
               <li>
-                Donations made through this site are made voluntarily and are not
-                tax-deductible.
+                Donations made through this site are made voluntarily and are
+                not tax-deductible.
               </li>
               <li>
                 We do not accept contributions from corporations, foreign
@@ -159,18 +164,17 @@ export default function TermsPage() {
               Contact
             </h2>
             <p className="leading-relaxed text-foreground/80">
-              For questions about this policy or to request data deletion, please
-              reach out through our{" "}
-              <a
+              For questions about this policy or to request data deletion,
+              please reach out through our{" "}
+              <Link
                 href="/get-involved"
                 className="text-primary underline underline-offset-2 hover:text-secondary transition-colors"
               >
                 Get Involved
-              </a>{" "}
+              </Link>{" "}
               page.
             </p>
           </section>
-
         </div>
       </div>
     </main>

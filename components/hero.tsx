@@ -16,7 +16,7 @@ import { BLUR } from "@/lib/blur-data-urls";
  * ─────────────────────────────────────────────────────────
  */
 const VIDEO_SRC =
-  "https://charlesbooker.org/wp-content/uploads/2026/05/CHARLES-BOOKER-HERO-VIDEO-0519-720.mp4";
+  "https://raufgovernor.com/wp-content/uploads/2026/05/CHARLES-BOOKER-HERO-VIDEO-0519-720.mp4";
 const POSTER_SRC = "../public/ef8b4004-f1f9-4da3-9b21-5c597d17aacb.JPG";
 
 const fadeUp = (delay = 0) => ({
