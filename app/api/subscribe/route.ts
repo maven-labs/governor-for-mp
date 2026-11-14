@@ -41,7 +41,7 @@ export async function POST(req: NextRequest) {
         email,
         amount: amountNum * 100, // pesewas
         plan: planCode,
-        callback_url: `${process.env.NEXT_PUBLIC_SITE_URL ?? "https://abdulformp.com"}/donate/thank-you`,
+        callback_url: `${process.env.NEXT_PUBLIC_SITE_URL ?? "https://raufgovernor.com"}/donate/thank-you`,
         metadata: {
           campaign: "governor-sulemana-kumbungu-mp",
           donation_type: "monthly",
