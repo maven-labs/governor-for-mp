@@ -18,12 +18,24 @@ const ACHIEVEMENTS = [
     body: "Governor has facilitated job placements for numerous young people across various communities — within and beyond the Kumbungu constituency — opening doors and creating pathways where few existed.",
     images: [
       {
+        src: "/images/nurses-supported.avif",
+        alt: "Donation to health facility by Governor",
+      },
+      {
+        src: "/images/nurses-supported-1.avif",
+        alt: "Donation to health facility by Governor",
+      },
+      {
         src: "/images/money-donation.avif",
         alt: "Youth employment facilitated by Governor",
       },
       {
-        src: "/images/tinywow_u0FZ5Pb54OOgBVPRjvNpyTmIHeAvmvrZplgr0jJK_92543319.avif",
-        alt: "Young people supported by Governor",
+        src: "/images/donation.avif",
+        alt: "Market woman supported by Governor",
+      },
+      {
+        src: "/images/cash-donation-1.avif",
+        alt: "Market woman supported by Governor",
       },
     ],
   },
@@ -35,11 +47,11 @@ const ACHIEVEMENTS = [
     body: "In 2024, Governor donated over 3,000 party T-shirts, 500 veils for women, customised party wristbands, and other essential campaign materials — amplifying the NPP's visibility and footprint across Kumbungu.",
     images: [
       {
-        src: "/images/tinywow_1zfbtUFJkPNRbxd9mgoNP8RDYKyoiS6nPsBJItO8_92543311.avif",
+        src: "/images/t-shirts.avif",
         alt: "Campaign T-shirt donation",
       },
       {
-        src: "/images/tinywow_ItedonUurJdOZqqnUvFVRmNPycoaLNpzhair4cnr_92543449.avif",
+        src: "/images/party-items.avif",
         alt: "Women's veils and wristbands donation",
       },
     ],
@@ -52,11 +64,11 @@ const ACHIEVEMENTS = [
     body: 'During the 2024 campaign, Governor sponsored the popular radio programme "BAWUMIA SAHA" on Majority Radio in Tamale — projecting the vision and achievements of the party\'s presidential candidate to a wide Northern Region audience.',
     images: [
       {
-        src: "/images/tinywow_0dc1806c-2e4f-4de1-ac46-25bd8f94ed6b_92543519.avif",
-        alt: "Radio programme sponsorship",
+        src: "/images/bawumia-saha-poster.avif",
+        alt: "Radio programme flyer",
       },
       {
-        src: "/images/",
+        src: "/images/about.jpg",
         alt: "BAWUMIA SAHA radio broadcast",
       },
     ],
@@ -75,6 +87,10 @@ const ACHIEVEMENTS = [
       {
         src: "/images/mion-support.avif",
         alt: "Donations to Mion constituency",
+      },
+      {
+        src: "/images/mion-youth-agenda-tour.avif",
+        alt: "Governor speaking at the Youth agenda movement tour in Mion",
       },
       // {
       //   src: "/images/tinywow_1b74d73c-879e-4f22-8464-36a66669c9e0_92543548.avif",
@@ -98,13 +114,25 @@ const ACHIEVEMENTS = [
         alt: "Fio community classroom renovation",
       },
       {
-        src: "/images/fio-classroom-block.avif",
+        src: "/images/fio-classroom-block-commissioning-event.avif",
         alt: "Renovated classroom block at Fio community",
       },
       {
-        src: "/images/walewale-community-development.avif",
-        alt: "Mechanised borehole in Walewale",
+        src: "/images/fio-first-ever-jhs-classroom-block.avif",
+        alt: "First ever JHS classroom block at Fio community",
       },
+      {
+        src: "/images/fio-renovated-classroom-block.avif",
+        alt: "Governor at the renovated classroom block at Fio community 1",
+      },
+      {
+        src: "/images/fio-classroom-block.avif",
+        alt: "Governor at the renovated classroom block at Fio community 2",
+      },
+      // {
+      //   src: "/images/walewale-community-development.avif",
+      //   alt: "Mechanised borehole in Walewale",
+      // },
     ],
   },
   {
@@ -115,12 +143,16 @@ const ACHIEVEMENTS = [
     body: "Governor supported Hon. Razak in constructing a borehole for the Namujoka community in Chereponi, complementing the NPP government's drive to provide clean, reliable drinking water to underserved communities.",
     images: [
       {
-        src: "/images/tinywow_7e32c82a-39dd-4e5d-a3bd-bc4e5acaa001_92543597.avif",
+        src: "/images/old-dam.avif",
         alt: "Borehole construction in Chereponi",
       },
       {
-        src: "/images/tinywow_08ba3605-191c-4432-8d2f-918ed37fe6ab_92543604.avif",
-        alt: "Namujoka community borehole",
+        src: "/images/old-dam-1.avif",
+        alt: "Namujoka old dam",
+      },
+      {
+        src: "/images/mechanised-borehole.avif",
+        alt: "Namujoka community mechanised borehole",
       },
     ],
   },
@@ -132,16 +164,16 @@ const ACHIEVEMENTS = [
     body: "The only maternity ward in the Gupanarigu Electoral Area had fallen into severe disrepair. Governor personally funded its renovation and donated medical equipment to the facility — restoring dignified healthcare for mothers and newborns.",
     images: [
       {
-        src: "/images/tinywow_1zfbtUFJkPNRbxd9mgoNP8RDYKyoiS6nPsBJItO8_92543311.avif",
+        src: "/images/gupanarigu-old-maternity-ward.avif",
+        alt: "Old maternity ward exterior",
+      },
+      {
+        src: "/images/gupanirigu-new-maternity-ward.avif",
         alt: "Renovated maternity ward exterior",
       },
       {
         src: "/images/gupanarigu-maternity-ward-donation.avif",
         alt: "Medical equipment donated to ward",
-      },
-      {
-        src: "/images/tinywow_ySvSun3d8egMdCAyQxLAVcItsJA584GhpxkRuc9r_92543400.avif",
-        alt: "Interior of renovated maternity ward",
       },
     ],
   },
@@ -153,13 +185,13 @@ const ACHIEVEMENTS = [
     body: "For the first time in the Northern Region, Governor lobbied and brought national-level officials to issue NPP party cards directly to members in Kumbungu. He also made significant donations of assorted items towards the party's reorganisation effort.",
     images: [
       {
-        src: "/images/tinywow_ItedonUurJdOZqqnUvFVRmNPycoaLNpzhair4cnr_92543449.avif",
+        src: "/images/party-items.avif",
         alt: "NPP party card distribution event",
       },
-      {
-        src: "/images/tinywow_0dc1806c-2e4f-4de1-ac46-25bd8f94ed6b_92543519.avif",
-        alt: "National officials at Kumbungu card issuance",
-      },
+      // {
+      //   src: "/images/tinywow_0dc1806c-2e4f-4de1-ac46-25bd8f94ed6b_92543519.avif",
+      //   alt: "National officials at Kumbungu card issuance",
+      // },
     ],
   },
   {
@@ -170,13 +202,13 @@ const ACHIEVEMENTS = [
     body: "Governor has championed opportunities for fellow Northerners at the Ghana Ports and Harbours Authority, lobbying effectively for career advancement. He remains a consistent voice for the marginalised — a commitment that speaks louder than any campaign promise.",
     images: [
       {
-        src: "/images/tinywow_0ec38f5e-1ec8-43f9-b705-172d7d77f47e_92543527.avif",
+        src: "/images/support.avif",
         alt: "Governor advocating for constituents",
       },
-      {
-        src: "/images/tinywow_1ad303e4-6abb-4176-beb3-6c3777245c5c_92543532.avif",
-        alt: "Community engagement for peace",
-      },
+      // {
+      //   src: "/images/tinywow_1ad303e4-6abb-4176-beb3-6c3777245c5c_92543532.avif",
+      //   alt: "Community engagement for peace",
+      // },
     ],
   },
   {
@@ -187,15 +219,15 @@ const ACHIEVEMENTS = [
     body: "In November 2025, Governor organised the maiden Peace and Development Cup — a constituency-wide soccer tournament bringing together zonal communities to promote unity, healthy competition, and meaningful engagement for the youth of Kumbungu.",
     images: [
       {
-        src: "/images/tinywow_1b74d73c-879e-4f22-8464-36a66669c9e0_92543548.avif",
+        src: "/images/peace-cup-launch.avif",
         alt: "Peace and Development Cup opening ceremony",
       },
+      // {
+      //   src: "/images/zamigu-youth.avif",
+      //   alt: "Tournament match in progress",
+      // },
       {
-        src: "/images/zamigu-youth.avif",
-        alt: "Tournament match in progress",
-      },
-      {
-        src: "/images/tinywow_5cb7b785-e6bc-406d-a5f4-e3a835b1aa5e_92543565.avif",
+        src: "/images/peace-cup.avif",
         alt: "Award ceremony at the Peace Cup",
       },
     ],

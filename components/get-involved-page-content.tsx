@@ -94,7 +94,7 @@ const OTHER_WAYS = [
     description:
       "Share the campaign with friends, family, and neighbours in Kumbungu. Word of mouth is our strongest tool.",
     cta: "Share on WhatsApp",
-    href: `https://wa.me/?text=${encodeURIComponent("Join the movement! Abdul Rauf 'Governor' Sulemana is running for MP of Kumbungu. Learn more at https://abdulformp.com")}`,
+    href: `https://wa.me/?text=${encodeURIComponent("Join the movement! Abdul Rauf 'Governor' Sulemana is running for MP of Kumbungu. Learn more at https://raufgovernor.com")}`,
     external: true,
     accent: false,
   },

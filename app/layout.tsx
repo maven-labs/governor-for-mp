@@ -22,11 +22,11 @@ export const metadata: Metadata = {
   },
   description:
     'Abdul Rauf "Governor" Sulemana is running for Member of Parliament for Kumbungu Constituency under the New Patriotic Party — fighting for youth, farmers, and every family in Kumbungu.',
-  metadataBase: new URL("https://abdulformp.com"),
+  metadataBase: new URL("https://raufgovernor.com"),
   openGraph: {
     type: "website",
     locale: "en_GH",
-    url: "https://abdulformp.com",
+    url: "https://raufgovernor.com",
     siteName: "Governor for MP",
     title: "Governor for MP | Abdul Rauf Sulemana for Kumbungu",
     description:
@@ -48,6 +48,10 @@ export const metadata: Metadata = {
     images: ["/hero-banner.jpg"],
   },
   keywords: [
+    "Abdul Rauf Governor",
+    "Rauf Governor",
+    "NPP Governor",
+    "Kumbungu Governor",
     "Governor Sulemana",
     "Abdul Rauf Sulemana",
     "Kumbungu MP",
