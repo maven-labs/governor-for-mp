@@ -160,17 +160,15 @@ export default function TermsPage() {
             </h2>
             <p className="leading-relaxed text-foreground/80">
               For questions about this policy or to request data deletion, please
-              contact the campaign:
+              reach out through our{" "}
+              <a
+                href="/get-involved"
+                className="text-primary underline underline-offset-2 hover:text-secondary transition-colors"
+              >
+                Get Involved
+              </a>{" "}
+              page.
             </p>
-            <address className="mt-4 not-italic text-foreground/80 leading-relaxed">
-              <strong className="text-primary">
-                Abdul Rauf &ldquo;Governor&rdquo; Sulemana Campaign
-              </strong>
-              <br />
-              P.O. Box 126, Zaamigu Area
-              <br />
-              Northern Region, Ghana
-            </address>
           </section>
 
         </div>
