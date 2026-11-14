@@ -3,15 +3,10 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
+import { BLUR } from "@/lib/blur-data-urls";
 import { Button } from "./ui/button";
 import Link from "next/link";
 
-/*
- * ─────────────────────────────────────────────────────────
- *  SWAP THIS with your real candidate+supporter photo:
- *  Drop the image into /public/images/candidate-supporter.jpg
- * ─────────────────────────────────────────────────────────
- */
 const SECTION_IMAGE = "/get-involved.avif";
 
 /* ── Animation ── */
@@ -264,6 +259,8 @@ export default function GetInvolved() {
             fill
             className="object-cover object-center"
             sizes="50vw"
+            placeholder="blur"
+            blurDataURL={BLUR[SECTION_IMAGE]}
           />
 
           {/* <div

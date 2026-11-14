@@ -17,8 +17,8 @@ const fontBody = Be_Vietnam_Pro({
 
 export const metadata: Metadata = {
   title: {
-    default: "Governor for MP | Abdul Rauf Sulemana for Kumbungu",
-    template: "%s | Governor for MP",
+    default: "Rauf Governor for MP | Abdul Rauf Sulemana for Kumbungu",
+    template: "%s | Rauf Governor for MP",
   },
   description:
     'Abdul Rauf "Governor" Sulemana is running for Member of Parliament for Kumbungu Constituency under the New Patriotic Party — fighting for youth, farmers, and every family in Kumbungu.',
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
       'Abdul Rauf "Governor" Sulemana is running for Member of Parliament for Kumbungu Constituency — fighting for youth, farmers, and every family in Kumbungu.',
     images: [
       {
-        url: "/hero-banner.jpg",
+        url: "/about-governor.avif",
         width: 1200,
         height: 630,
         alt: "Abdul Rauf Governor Sulemana — MP for Kumbungu",
@@ -45,7 +45,7 @@ export const metadata: Metadata = {
     title: "Governor for MP | Abdul Rauf Sulemana for Kumbungu",
     description:
       'Abdul Rauf "Governor" Sulemana is running for Member of Parliament for Kumbungu Constituency — fighting for youth, farmers, and every family in Kumbungu.',
-    images: ["/hero-banner.jpg"],
+    images: ["/about-governor.avif"],
   },
   keywords: [
     "Abdul Rauf Governor",

@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import { Button, buttonVariants } from "./ui/button";
 import Image from "next/image";
+import { BLUR } from "@/lib/blur-data-urls";
 
 /*
  * ─────────────────────────────────────────────────────────
@@ -15,7 +16,7 @@ import Image from "next/image";
  * ─────────────────────────────────────────────────────────
  */
 const VIDEO_SRC =
-  "https://charlesbooker.org/wp-content/uploads/2026/05/CHARLES-BOOKER-HERO-VIDEO-0519-720.mp4";
+  "https://raufgovernor.com/wp-content/uploads/2026/05/CHARLES-BOOKER-HERO-VIDEO-0519-720.mp4";
 const POSTER_SRC = "../public/ef8b4004-f1f9-4da3-9b21-5c597d17aacb.JPG";
 
 const fadeUp = (delay = 0) => ({
@@ -62,6 +63,8 @@ export default function Hero() {
         alt=""
         className="absolute inset-0 w-full h-full object-cover object-[center_20%] z-0"
         fill
+        placeholder="blur"
+        blurDataURL={BLUR["/hero-banner.jpg"]}
       />
 
       {/* ─────────────────────────────────────────────────────
