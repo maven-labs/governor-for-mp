@@ -92,7 +92,7 @@ function Autobiography() {
 
       {/* Section 2 — desire to make a difference */}
       <Section delay={0}>
-        <div>
+        <div className="order-2 lg:order-1">
           <h2 className="font-heading font-black text-primary text-[clamp(2rem,4.5vw,3.5rem)] leading-none uppercase">
             Desire to make a <span className="text-gold">difference</span>
           </h2>
@@ -111,7 +111,7 @@ function Autobiography() {
             </p>
           </div>
         </div>
-        <div>
+        <div className="order-1 lg:order-2">
           <Image
             src="/images/young-governor.avif"
             alt="A younger Governor Sulemana during his student years"
@@ -169,7 +169,7 @@ function Autobiography() {
 
       {/* Section 4 — the leader of the people */}
       <Section delay={0}>
-        <div>
+        <div className="order-2 lg:order-1">
           <h2 className="font-heading font-black text-primary text-[clamp(2rem,4.5vw,3.5rem)] leading-none uppercase">
             <span className="text-gold">The leader</span> of the people
           </h2>
@@ -190,7 +190,7 @@ function Autobiography() {
             </p>
           </div>
         </div>
-        <div>
+        <div className="order-1 lg:order-2">
           <Image
             src="/images/market-campaign.avif"
             alt="Governor speaking with traders at a local market in Kumbungu"
