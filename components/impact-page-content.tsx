@@ -432,7 +432,7 @@ export default function ImpactContent() {
                 variants={fadeUp(0.1)}
                 initial="hidden"
                 whileInView="show"
-                viewport={{ once: true, amount: 0.15 }}
+                viewport={{ once: true, amount: 0.05 }}
                 className="grid grid-cols-1 lg:grid-cols-2"
               >
                 {/* Text side */}
