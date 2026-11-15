@@ -142,7 +142,10 @@ function Autobiography() {
             The man for <span className="text-gold">the people</span>
           </h2>
           <div className="mt-6 space-y-5 text-lg leading-relaxed">
-            <p>As Member of Parliament for Kumbungu, Governor&apos;s vision is to:</p>
+            <p>
+              As Member of Parliament for Kumbungu, Governor&apos;s vision is
+              to:
+            </p>
             <ul className="space-y-1 list-disc pl-8">
               <li>
                 Build strong local and international partnerships that benefit
@@ -158,9 +161,9 @@ function Autobiography() {
                 Kumbungu.
               </li>
               <li>
-                Promote &ldquo;Youth in Agriculture&rdquo; through a pre-school agriculture
-                program that trains young farmers, provides fertilizers and
-                seedlings, and builds practical farming skills.
+                Promote &ldquo;Youth in Agriculture&rdquo; through a pre-school
+                agriculture program that trains young farmers, provides
+                fertilizers and seedlings, and builds practical farming skills.
               </li>
             </ul>
           </div>
@@ -222,13 +225,17 @@ function Autobiography() {
           </h2>
           <div className="mt-6 space-y-5 text-lg leading-relaxed">
             <p>
-              Abdul Rauf Sulemana&apos;s prominent presence in the Kumbungu political
-              landscape continues to inspire young party faithful to work
-              assiduously and selflessly for the NPP. Presenting &ldquo;Governor&rdquo; as
-              the candidate for 2028 is not just a strategic choice—it is the
-              clear path toward securing victory for the NPP in Kumbungu.
+              Abdul Rauf Sulemana&apos;s prominent presence in the Kumbungu
+              political landscape continues to inspire young party faithful to
+              work assiduously and selflessly for the NPP. Presenting
+              &ldquo;Governor&rdquo; as the candidate for 2028 is not just a
+              strategic choice—it is the clear path toward securing victory for
+              the NPP in Kumbungu.
             </p>
-            <p>Governor is urging all members of Kumbungu to join him in this fight.</p>
+            <p>
+              Abdul Rauf Sulemana is urging all members of Kumbungu to join him
+              in this fight.
+            </p>
           </div>
         </div>
       </Section>
